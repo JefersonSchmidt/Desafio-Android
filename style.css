@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #33b16c, #175232);
+    padding: 20px 10px 0px 10px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    background-color: lightcyan;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281), -5px 0px 5px rgba(0, 0, 0, 0.281);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---Tittles------------------------------------------------------------------------*/
+
+#title {
+    font-family: 'bebas neue';
+    font-size: 48px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    padding: px;
+}
+
+#subtitle {
+    padding: 5px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 35px;
+    font-size: larger;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: #346D4E;
+    font-family: 'idroid';
+    text-align: center;
+}
+
+h3 {
+    font-family: 'idroid';
+    color: #3B7656;
+    background-image: linear-gradient(to right, #acf7cd, lightcyan);
+    text-indent: 5px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+h4 {
+    background-color: #0c552c;
+    color: lightcyan;
+    padding: 15px 10px;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px -10px;
+    font-weight: 900;
+}
+
+/*---Menu------------------------------------------------------------------------*/
+
+nav {
+    height: 70px;
+}
+
+nav > p{
+    display: inline-block;
+    color: #bde6ce;
+    width: 100px;  
+    height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 17px;
+    margin-right: 5px;
+}
+
+
+nav > p:hover {
+    background-color: #38b470;
+    color: black;
+    transition-duration: .8s;
+}
+
+/*---Paragrafos------------------------------------------------------------------------*/
+
+.basep {
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+span {
+    color: #1A5C37;
+    font-weight: 700;
+}
+
+/*---Links------------------------------------------------------------------------*/
+
+a {
+    text-decoration: none;
+    color: #0c552c;
+    font-weight: 900;
+    background-color: #83E1AD;
+    padding: 0px 3px;
+    border-radius: 5px;
+}
+
+/*---Imagens------------------------------------------------------------------------*/
+
+picture {
+    display: flex;
+    margin: auto;
+}
+
+picture > img {
+    width: 1100px;
+}
+
+#bugdroid {
+    display: block;
+    width: 300;
+    margin: auto;
+}
+
+/*---Midia------------------------------------------------------------------------*/
+
+#midia {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#outcolor {
+    background-color: #0c552c;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+/*---Lista------------------------------------------------------------------------*/
+
+.divlist {
+    display: inline-block;
+    margin-right: 175px;
+    margin-left: 15px;
+    margin-top: -15px
+}
+
+ul {
+    list-style: url(imagens/checkpq.png);
+    line-height: 5px;
+}
+
+/*---Rodapé------------------------------------------------------------------------*/
+
+footer {
+    background-color: #0c552c;
+    text-align: center;
+    color: white;
+    margin-bottom: -16px;
+}
+
+footer > p {
+    padding: 5px;
+}
+
+/*---ForFun------------------------------------------------------------------------*/
+
+#end {
+    background-color: #83E1AD;
+    border-radius: 10px;
+    padding: 0px 10px 15px 10px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.178), -3px -3px 2px rgba(0, 0, 0, 0.178);
+}
+
