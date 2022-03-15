@@ -126,7 +126,7 @@ picture {
 }
 
 picture > img {
-    width: 1100px;
+    width: 100%;
 }
 
 #bugdroid {
@@ -164,7 +164,7 @@ picture > img {
 
 ul {
     list-style: url(imagens/checkpq.png);
-    line-height: 5px;
+    line-height: 20px;
 }
 
 /*---Rodapé------------------------------------------------------------------------*/
