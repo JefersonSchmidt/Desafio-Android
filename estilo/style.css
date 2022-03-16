@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'idroid';
-    src: url(//fontes/idroid.otf) format('opentype');
+    src: url('/fontes/idroid.otf') format('opentype');
 }
 
 body {
@@ -49,12 +49,12 @@ main {
 
 h2 {
     color: #346D4E;
-    font-family: 'idroid';
+    font-family: 'iDroid';
     text-align: center;
 }
 
 h3 {
-    font-family: 'idroid';
+    font-family: 'iDroid';
     color: #3B7656;
     background-image: linear-gradient(to right, #acf7cd, lightcyan);
     text-indent: 5px;
